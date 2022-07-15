@@ -1,0 +1,10 @@
+{
+  "autoload": {
+    "psr-4": {
+      "al13\\": "vendor/al13",
+      "app\\": "app"
+    }
+  },
+  "require": {
+  }
+}
