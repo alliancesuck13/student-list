@@ -1,0 +1,153 @@
+/*global params*/
+* {
+    scroll-behavior: smooth;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.registration__text {
+    text-align: center;
+
+    margin-right: auto;
+    margin-left: auto;
+
+    padding: 20px 0;
+
+    max-width: 340px;
+    background-color: #eeeeee;
+}
+
+.container {
+    min-width: 836px;
+}
+
+.main-header {
+    background-color: #eeeeee;
+    padding: 10px;
+}
+
+.ul-header {
+    display: flex;
+    justify-content: center;
+}
+
+.ul-header li {
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-right: 50px;
+}
+
+.ul-header li a:hover {
+    color: red;
+}
+
+.container-width {
+    width: 856px;
+
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.student-list {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.list-header {
+    display: flex;
+}
+
+.list-header form {
+    align-self: center;
+}
+
+.list-header h3 {
+    margin-right: 21em;
+}
+
+.pages {
+    display: flex;
+}
+
+.pages-li {
+    display: flex;
+}
+
+.pages-li li {
+    margin-right: 20px;
+}
+
+.pages-li li a {
+    color: blue;
+}
+
+.pages-li li a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.students {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+.students th {
+    font-weight: bold;
+    padding: 5px;
+    background: #efefef;
+    border: 1px solid #dddddd;
+}
+.students td {
+    border: 1px solid #dddddd;
+    padding: 5px;
+
+    text-align: center;
+}
+
+.main-form {
+    display: flex;
+    flex-direction: column;
+
+    padding: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #eeeeee;
+
+    max-width: 300px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.form-container input {
+    margin: 5px;
+}
+
+.label-form {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.btn-form {
+    margin-top: 10px;
+}
